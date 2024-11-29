@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jean-Paul, Mansouri">
+    <title>Convertisseur d'images universel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertisseur d'images universel</h1>
+        
+        <div class="drop-zone" id="dropZone">
+            <p>Glissez votre image ici</p>
+            <p>ou</p>
+            <label class="file-label">
+                <input type="file" id="fileInput" accept="image/*">
+                Choisir un fichier
+            </label>
+        </div>
+
+        <div id="fileInfo" class="file-info" style="display: none;">
+            <p>Format d'origine: <span id="sourceFormat">-</span></p>
+            <p>Dimensions: <span id="sourceDimensions">-</span></p>
+        </div>
+
+        <div class="controls">
+            <div>
+                <label>Format de sortie: </label>
+                <select id="outputFormat" class="format-select">
+                    <option value="image/jpeg">JPG</option>
+                    <option value="image/png">PNG</option>
+                    <option value="image/webp">WebP</option>
+                </select>
+            </div>
+            <div style="margin: 15px 0;">
+                <label>Dimensions: </label>
+                <input type="number" id="width" placeholder="Largeur" min="1">
+                ×
+                <input type="number" id="height" placeholder="Hauteur" min="1">
+                px
+                <button id="resetSize">Taille originale</button>
+            </div>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" id="keepRatio" checked> Maintenir le ratio
+                </label>
+            </div>
+            <div>
+                <label>Qualité: </label>
+                <input type="range" id="quality" min="1" max="100" value="85">
+                <span id="qualityValue">85%</span>
+            </div>
+        </div>
+
+        <div class="preview">
+            <div class="preview-box">
+                <h3>Image originale</h3>
+                <img id="sourcePreview">
+                <div class="file-weight" id="sourceWeight"></div>
+            </div>
+            <div class="preview-box">
+                <h3>Image convertie</h3>
+                <img id="convertedPreview">
+                <div class="file-weight" id="convertedWeight"></div>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <button id="downloadBtn" disabled>Télécharger l'image convertie</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
