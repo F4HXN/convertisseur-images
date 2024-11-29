@@ -33,3 +33,7 @@ git clone https://github.com/F4HXN/convertisseur-images.git
 ## 📝 Licence
 
 Ce projet est sous licence MIT.
+
+## ⭐ Exemple
+
+![exemple](https://github.com/user-attachments/assets/0ad12911-831a-4fd5-9037-0333353a66bd)
