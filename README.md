@@ -20,7 +20,7 @@ Un convertisseur d'images web simple et efficace qui permet de convertir, redime
 git clone https://github.com/F4HXN/convertisseur-images.git
 ```
 
-2. Ouvrez le fichier `index.html` dans votre navigateur ou déployez les fichiers sur votre serveur web.
+2. Ouvrez le fichier `index.html` dans votre navigateur ou déployez le fichier sur votre serveur web.
 
 ## 🔍 Utilisation
 
