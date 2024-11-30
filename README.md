@@ -36,4 +36,4 @@ Ce projet est sous licence MIT.
 
 ## ⭐ Exemple
 
-![exemple](https://github.com/user-attachments/assets/0ad12911-831a-4fd5-9037-0333353a66bd)
+![exemple](https://github.com/user-attachments/assets/827e190f-d53f-4a07-aebc-0eb9b6933fc4)
