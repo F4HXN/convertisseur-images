@@ -38,5 +38,5 @@ Ce projet est sous licence MIT.
 
 ![exemple](https://github.com/user-attachments/assets/827e190f-d53f-4a07-aebc-0eb9b6933fc4)
 
-## 🔒 Confidentialité et sécurité : 
+## 🔒 Confidentialité et sécurité 
 Vos images sont intégralement traitées localement dans votre navigateur, sans aucun transfert ni stockage sur des serveurs externes. Cela garantit une confidentialité absolue.
